@@ -1,0 +1,15 @@
+{
+  "name": "advent-of-code",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Pavlos Vinieratos <pvinis@gmail.com>",
+  "scripts": {
+    "test": "jest",
+    "test.watch": "jest --watch"
+  },
+  "dependencies": {
+    "jest": "^23.6.0",
+    "multiline": "^2.0.0",
+    "ramda": "^0.26.1"
+  }
+}
