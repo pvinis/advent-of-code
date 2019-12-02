@@ -11,7 +11,7 @@ const fmt = R.pipe(
 
 
 const processEach = (input) => {
-	return Math.floor(input / 3) / 2
+	return Math.floor(input / 3) - 2
 }
 
 const a = () => {
@@ -23,7 +23,6 @@ const a = () => {
 	// console.log(output)
 	const final = R.sum(output)
 	console.log(final)
-    return output
 }
 
 a()
